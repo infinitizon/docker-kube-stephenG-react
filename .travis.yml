@@ -2,7 +2,7 @@ sudo: required
 services:
   - docker
 before_install:
-  - docker build -t infinitizon/docker-kube-stephenG-react -f Dockerfile.dev .
+  - docker build -t infinitizon/docker-kube-stepheng-react -f Dockerfile.dev .
 
 script:
-  - docker run infinitizon/docker-kube-stephenG-react npm run start -- --coverage
+  - docker run infinitizon/docker-kube-stepheng-react npm run start -- --coverage
